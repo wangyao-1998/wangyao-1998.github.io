@@ -1,4 +1,4 @@
 type = "text"
 title = "CV"
-description = "A concise academic CV. A PDF version is available below."
+description = "Downloadable CV and concise professional background."
 source = "cv.md"

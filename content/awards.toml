@@ -3,31 +3,37 @@ title = "Awards"
 description = "Scholarships and awards recognizing academic and research achievements."
 
 [[items]]
+title = "Frontiers Planet Prize"
+subtitle = "Frontiers Planet Prize"
+date = "2026"
+content = "Selected as Singapore's sole National Champion and one of 25 National Champions worldwide for a sole-first-author Nature Sustainability paper on landfill methane emissions. The Frontiers Planet Prize is a major global scientific award described as \"the world's biggest prize in scientific solutions for planetary health\"."
+
+[[items]]
 title = "Chinese Government Award for Outstanding Self-Financed Students Abroad"
 subtitle = "Chinese Government"
 date = "2025"
-content = "A scholarship recognizing outstanding non-CSC funded Chinese students studying abroad."
+content = "A prestigious scholarship established by the Chinese government to recognize outstanding non-CSC funded Chinese students studying abroad. Only 650 recipients are selected worldwide each year for their exceptional academic and research achievements."
+
+[[items]]
+title = "Nanyang Technological University Research Scholarship"
+subtitle = "Nanyang Technological University, Singapore"
+date = "2022-2026"
+content = "A full scholarship awarded to outstanding Ph.D. students, covering full tuition fees and providing a monthly living allowance."
+
+[[items]]
+title = "Nanyang Technological University Research Scholarship"
+subtitle = "Nanyang Technological University, Singapore"
+date = "2020-2022"
+content = "A full scholarship awarded to outstanding Master's students, covering full tuition fees and providing a monthly living allowance."
 
 [[items]]
 title = "NTU CEE Best Research Poster Award (Bronze)"
-subtitle = "Nanyang Technological University"
+subtitle = "Nanyang Technological University, Singapore"
 date = "2025"
-content = "Awarded by the School of Civil and Environmental Engineering."
-
-[[items]]
-title = "Nanyang Technological University Research Scholarship"
-subtitle = "Nanyang Technological University"
-date = "2022-2026"
-content = "Full Ph.D. scholarship covering tuition fees and monthly living allowance."
-
-[[items]]
-title = "Nanyang Technological University Research Scholarship"
-subtitle = "Nanyang Technological University"
-date = "2020-2022"
-content = "Full master's scholarship covering tuition fees and monthly living allowance."
+content = ""
 
 [[items]]
 title = "Tongji Scholarship of Excellence"
 subtitle = "Tongji University"
 date = "2016-2019"
-content = "Awarded across academic years 2016-2017, 2017-2018, and 2018-2019."
+content = "Academic Years 2016-2017, 2017-2018, 2018-2019."

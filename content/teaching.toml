@@ -1,24 +1,54 @@
 type = "card"
-title = "Teaching"
-description = "Tutorial and teaching experience at Nanyang Technological University."
+title = "Teaching & Supervision"
+description = "Teaching experience and student supervision at Nanyang Technological University, Singapore."
 
 [[items]]
 title = "CV0003 Introduction to Data Science and Artificial Intelligence"
-subtitle = "Nanyang Technological University"
+subtitle = "Nanyang Technological University, Singapore"
 date = "Y24/25 Semester 2"
 content = "Led tutorials on Python programming, data analysis, and machine learning fundamentals."
-tags = ["Undergraduate", "Data Science", "Artificial Intelligence"]
+tags = ["Teaching", "Undergraduate", "Data Science", "Artificial Intelligence"]
 
 [[items]]
 title = "CV1014 Introduction to Computational Thinking"
-subtitle = "Nanyang Technological University"
+subtitle = "Nanyang Technological University, Singapore"
 date = "Y24/25 Semester 1"
 content = "Led tutorials on algorithmic thinking and introductory programming."
-tags = ["Undergraduate", "Computational Thinking"]
+tags = ["Teaching", "Undergraduate", "Computational Thinking"]
 
 [[items]]
 title = "EG0001 Engineers & Society"
-subtitle = "Nanyang Technological University"
+subtitle = "Nanyang Technological University, Singapore"
 date = "Y23/24 Semesters 1 and 2"
 content = "Facilitated discussions on engineering ethics and supported assessment and feedback."
-tags = ["Undergraduate", "Engineering Ethics"]
+tags = ["Teaching", "Undergraduate", "Engineering Ethics"]
+
+[[items]]
+title = "Koh Xin Li"
+subtitle = "Environmental Engineering, Year 4, Final Year Project"
+content = "Climate change effects on landfills."
+tags = ["Supervision", "Final Year Project"]
+
+[[items]]
+title = "Steffi Rei Wong Shi Qi"
+subtitle = "Environmental Engineering, Year 4, Final Year Project"
+content = "Carbon emissions from solid waste in Southeast Asia."
+tags = ["Supervision", "Final Year Project"]
+
+[[items]]
+title = "Sim Zu Da Joel"
+subtitle = "Civil Engineering, Year 4, Final Year Project"
+content = "Estimating landfill carbon stocks and emissions."
+tags = ["Supervision", "Final Year Project"]
+
+[[items]]
+title = "Hou Tianyuan"
+subtitle = "Environmental Engineering, Year 4, Final Year Project"
+content = "GHG emissions from waste sector."
+tags = ["Supervision", "Final Year Project"]
+
+[[items]]
+title = "Soo Wei Song"
+subtitle = "Environmental Engineering, Year 4, Final Year Project"
+content = "Method refinement for estimating carbon stock in landfills."
+tags = ["Supervision", "Final Year Project"]

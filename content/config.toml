@@ -1,6 +1,6 @@
 [site]
 title = "Yao Wang"
-description = "Academic website of Yao Wang, Postdoctoral Research Fellow at Nanyang Technological University."
+description = "Academic website of Yao Wang, Postdoctoral Research Fellow at Nanyang Technological University, Singapore."
 favicon = "/favicon.svg"
 last_updated = "June 23, 2026"
 url = "https://wangyao1998.top"
@@ -8,7 +8,7 @@ url = "https://wangyao1998.top"
 [author]
 name = "Yao Wang (王曜)"
 title = "Postdoctoral Research Fellow"
-institution = "Nanyang Technological University"
+institution = "Nanyang Technological University, Singapore"
 avatar = "/bio.jpg"
 
 [social]
@@ -18,7 +18,7 @@ email = "wang.yao@ntu.edu.sg"
 location = "Singapore"
 location_url = "https://www.ntu.edu.sg/"
 location_details = [
-  "Nanyang Technological University,",
+  "Nanyang Technological University, Singapore",
   "Singapore"
 ]
 google_scholar = "https://scholar.google.com/citations?hl=en&user=aTPoRrMAAAAJ"
@@ -59,16 +59,10 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "Teaching"
+title = "Teaching & Supervision"
 type = "page"
 target = "teaching"
 href = "/teaching"
-
-[[navigation]]
-title = "Supervision"
-type = "page"
-target = "supervision"
-href = "/supervision"
 
 [[navigation]]
 title = "Awards"

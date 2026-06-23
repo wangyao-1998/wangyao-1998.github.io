@@ -6,10 +6,9 @@ import Image from 'next/image';
 import {
     EnvelopeIcon,
     AcademicCapIcon,
-    HeartIcon,
-    MapPinIcon
+    HeartIcon
 } from '@heroicons/react/24/outline';
-import { MapPinIcon as MapPinSolidIcon, EnvelopeIcon as EnvelopeSolidIcon } from '@heroicons/react/24/solid';
+import { EnvelopeIcon as EnvelopeSolidIcon } from '@heroicons/react/24/solid';
 import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid';
 import { Linkedin, Pin } from 'lucide-react';
 import type { SiteConfig } from '@/lib/config';
@@ -39,11 +38,9 @@ export default function Profile({ author, social, features, researchInterests }:
 
     const [hasLiked, setHasLiked] = useState(false);
     const [showThanks, setShowThanks] = useState(false);
-    const [showAddress, setShowAddress] = useState(false);
-    const [isAddressPinned, setIsAddressPinned] = useState(false);
     const [showEmail, setShowEmail] = useState(false);
     const [isEmailPinned, setIsEmailPinned] = useState(false);
-    const [lastClickedTooltip, setLastClickedTooltip] = useState<'email' | 'address' | null>(null);
+    const [lastClickedTooltip, setLastClickedTooltip] = useState<'email' | null>(null);
 
     // Check local storage for user's like status
     useEffect(() => {
@@ -76,12 +73,6 @@ export default function Profile({ author, social, features, researchInterests }:
             icon: EnvelopeIcon,
             isEmail: true,
         }] : []),
-        ...(social.location || social.location_details ? [{
-            name: messages.profile.location,
-            href: social.location_url || '#',
-            icon: MapPinIcon,
-            isLocation: true,
-        }] : []),
         ...(social.google_scholar ? [{
             name: 'Google Scholar',
             href: social.google_scholar,
@@ -113,7 +104,7 @@ export default function Profile({ author, social, features, researchInterests }:
                     alt={author.name}
                     width={256}
                     height={256}
-                    className="w-full h-full object-cover object-[32%_center]"
+                    className="w-full h-full object-cover object-center"
                     priority
                 />
             </div>
@@ -135,83 +126,6 @@ export default function Profile({ author, social, features, researchInterests }:
             <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6 relative px-2">
                 {socialLinks.map((link) => {
                     const IconComponent = link.icon;
-                    if (link.isLocation) {
-                        return (
-                            <div key={link.name} className="relative">
-                                <button
-                                    onMouseEnter={() => {
-                                        if (!isAddressPinned) setShowAddress(true);
-                                        setLastClickedTooltip('address');
-                                    }}
-                                    onMouseLeave={() => !isAddressPinned && setShowAddress(false)}
-                                    onClick={() => {
-                                        setIsAddressPinned(!isAddressPinned);
-                                        setShowAddress(!isAddressPinned);
-                                        setLastClickedTooltip('address');
-                                    }}
-                                    className={`p-2 sm:p-2 transition-colors duration-200 ${isAddressPinned
-                                        ? 'text-accent'
-                                        : 'text-neutral-600 dark:text-neutral-400 hover:text-accent'
-                                        }`}
-                                    aria-label={link.name}
-                                >
-                                    {isAddressPinned ? (
-                                        <MapPinSolidIcon className="h-5 w-5" />
-                                    ) : (
-                                        <MapPinIcon className="h-5 w-5" />
-                                    )}
-                                </button>
-
-                                {/* Address tooltip */}
-                                <AnimatePresence>
-                                    {(showAddress || isAddressPinned) && (
-                                        <motion.div
-                                            initial={{ opacity: 0, y: 10, scale: 0.8 }}
-                                            animate={{ opacity: 1, y: -10, scale: 1 }}
-                                            exit={{ opacity: 0, y: -20, scale: 0.8 }}
-                                            className={`absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-full bg-neutral-800 text-white px-4 py-3 rounded-lg text-sm font-medium shadow-lg max-w-[calc(100vw-2rem)] sm:max-w-none sm:whitespace-nowrap ${lastClickedTooltip === 'address' ? 'z-20' : 'z-10'
-                                                }`}
-                                            onMouseEnter={() => {
-                                                if (!isAddressPinned) setShowAddress(true);
-                                                setLastClickedTooltip('address');
-                                            }}
-                                            onMouseLeave={() => !isAddressPinned && setShowAddress(false)}
-                                        >
-                                            <div className="text-center">
-                                                <div className="flex items-center justify-center space-x-2 mb-1">
-                                                    <p className="font-semibold">{messages.profile.workAddress}</p>
-                                                    {!isAddressPinned && (
-                                                        <div className="flex items-center space-x-0.5 text-xs text-neutral-400 opacity-60">
-                                                            <Pin className="h-2.5 w-2.5" />
-                                                            <span className="hidden sm:inline">{messages.profile.click}</span>
-                                                        </div>
-                                                    )}
-                                                </div>
-                                                {social.location_details?.map((line, i) => (
-                                                    <p key={i} className="break-words">{line}</p>
-                                                ))}
-                                                <div className="mt-2 flex flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-2 justify-center">
-                                                    {social.location_url && (
-                                                        <a
-                                                            href={social.location_url}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                            className="inline-flex items-center justify-center space-x-2 bg-accent hover:bg-accent-dark text-white px-3 py-1 rounded-md text-xs font-medium transition-colors duration-200 w-full sm:w-auto"
-                                                        >
-                                                            <MapPinIcon className="h-4 w-4" />
-                                                            <span>{messages.profile.googleMap}</span>
-                                                        </a>
-                                                    )}
-                                                </div>
-
-                                            </div>
-                                            <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-800"></div>
-                                        </motion.div>
-                                    )}
-                                </AnimatePresence>
-                            </div>
-                        );
-                    }
                     if (link.isEmail) {
                         return (
                             <div key={link.name} className="relative">
