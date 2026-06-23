@@ -18,6 +18,6 @@
 - Supervisor: Associate Professor [Fei Xunchang](https://dr.ntu.edu.sg/entities/person/Fei-Xunchang)
 - Thesis: The degradation processes of municipal solid waste in landfills
 
-**[Tongji University](https://www.tongji.edu.cn/eng/)**, B.S. in Environmental Science, *Sep 2016 - Jun 2020*
-- Supervisors: Professor Daqiang Yin and Professor Hongtao Wang
+**Tongji University**, B.S. in Environmental Science, *Sep 2016 - Jun 2020*
+- Supervisors: Professor [Daqiang Yin](https://sese.tongji.edu.cn/en/fac/fac/pro/Y/Daqiang_Yin.htm) and Professor [Hongtao Wang](https://sese.tongji.edu.cn/en/fac/fac/ass/W/Hongtao_Wang.htm)
 - Thesis: QSAR modeling of chlorinated paraffin in aquatic ecosystems
