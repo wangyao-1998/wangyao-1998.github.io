@@ -1,4 +1,5 @@
 name: One-time PRISM migration
+# trigger: 2026-06-23-1
 
 on:
   push:
