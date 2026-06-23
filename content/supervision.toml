@@ -1,0 +1,33 @@
+type = "card"
+title = "Supervision"
+description = "Student supervision and final-year project mentoring at Nanyang Technological University."
+
+[[items]]
+title = "Koh Xin Li"
+subtitle = "Environmental Engineering, Year 4, Final Year Project"
+date = "NTU"
+content = "Project: Climate change effects on landfills."
+
+[[items]]
+title = "Steffi Rei Wong Shi Qi"
+subtitle = "Environmental Engineering, Year 4, Final Year Project"
+date = "NTU"
+content = "Project: Carbon emissions from solid waste in Southeast Asia."
+
+[[items]]
+title = "Sim Zu Da Joel"
+subtitle = "Civil Engineering, Year 4, Final Year Project"
+date = "NTU"
+content = "Project: Estimating landfill carbon stocks and emissions."
+
+[[items]]
+title = "Hou Tianyuan"
+subtitle = "Environmental Engineering, Year 4, Final Year Project"
+date = "NTU"
+content = "Project: GHG emissions from the waste sector."
+
+[[items]]
+title = "Soo Wei Song"
+subtitle = "Environmental Engineering, Year 4, Final Year Project"
+date = "NTU"
+content = "Project: Method refinement for estimating carbon stock in landfills."

@@ -1,0 +1,39 @@
+type = "card"
+title = "Services"
+description = "Editorial, reviewing, and academic community service."
+
+[[items]]
+title = "Young Editorial Board Member"
+subtitle = "The Innovation Geoscience"
+date = "Current"
+content = "Editorial service for early-career geoscience research community."
+
+[[items]]
+title = "Young Editorial Board Member"
+subtitle = "DeCarbon"
+date = "Current"
+content = "Editorial service focused on decarbonization research."
+
+[[items]]
+title = "Reviewer"
+subtitle = "Nature Communications"
+date = "Current"
+content = "Peer review service."
+
+[[items]]
+title = "Reviewer"
+subtitle = "Journal of Environmental Management"
+date = "Current"
+content = "Peer review service."
+
+[[items]]
+title = "Reviewer"
+subtitle = "9th International Congress on Environmental Geotechnics (ICEG)"
+date = "Current"
+content = "Conference review service."
+
+[[items]]
+title = "Invited Talk"
+subtitle = "Frontiers of Environmental Science & Engineering Young Talent Forum, Tsinghua University"
+date = "2024"
+content = "Research presentation at the FESE Young Talent Forum."

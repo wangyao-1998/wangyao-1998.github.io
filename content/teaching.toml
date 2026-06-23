@@ -1,0 +1,24 @@
+type = "card"
+title = "Teaching"
+description = "Tutorial and teaching experience at Nanyang Technological University."
+
+[[items]]
+title = "CV0003 Introduction to Data Science and Artificial Intelligence"
+subtitle = "Nanyang Technological University"
+date = "Y24/25 Semester 2"
+content = "Led tutorials on Python programming, data analysis, and machine learning fundamentals."
+tags = ["Undergraduate", "Data Science", "Artificial Intelligence"]
+
+[[items]]
+title = "CV1014 Introduction to Computational Thinking"
+subtitle = "Nanyang Technological University"
+date = "Y24/25 Semester 1"
+content = "Led tutorials on algorithmic thinking and introductory programming."
+tags = ["Undergraduate", "Computational Thinking"]
+
+[[items]]
+title = "EG0001 Engineers & Society"
+subtitle = "Nanyang Technological University"
+date = "Y23/24 Semesters 1 and 2"
+content = "Facilitated discussions on engineering ethics and supported assessment and feedback."
+tags = ["Undergraduate", "Engineering Ethics"]
