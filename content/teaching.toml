@@ -5,15 +5,15 @@ description = "Teaching experience and student supervision at Nanyang Technologi
 [[items]]
 title = "CV0003 Introduction to Data Science and Artificial Intelligence"
 subtitle = "Nanyang Technological University, Singapore"
-date = "Y24/25 Semester 2"
-content = "Led tutorials on Python programming, data analysis, and machine learning fundamentals."
+date = "Y24/25 Semester 1"
+content = "Lectures, Python laboratory sessions, quizzes, and mini projects (52 hours). Student evaluation: 8.0/10 (14 responses)."
 tags = ["Teaching", "Undergraduate", "Data Science", "Artificial Intelligence"]
 
 [[items]]
 title = "CV1014 Introduction to Computational Thinking"
 subtitle = "Nanyang Technological University, Singapore"
-date = "Y24/25 Semester 1"
-content = "Led tutorials on algorithmic thinking and introductory programming."
+date = "Y24/25 Semester 2"
+content = "Lectures, programming laboratory sessions, and mini projects drawing on civil and environmental engineering (136 hours)."
 tags = ["Teaching", "Undergraduate", "Computational Thinking"]
 
 [[items]]
@@ -22,6 +22,12 @@ subtitle = "Nanyang Technological University, Singapore"
 date = "Y23/24 Semesters 1 and 2"
 content = "Facilitated discussions on engineering ethics and supported assessment and feedback."
 tags = ["Teaching", "Undergraduate", "Engineering Ethics"]
+
+[[items]]
+title = "Jia Linran"
+subtitle = "Environmental Engineering, PhD student (co-supervised with Assoc. Prof. Xunchang Fei)"
+content = "Reconciling bottom-up modelling with top-down monitoring of landfill methane emissions."
+tags = ["Supervision", "PhD"]
 
 [[items]]
 title = "Koh Xin Li"
